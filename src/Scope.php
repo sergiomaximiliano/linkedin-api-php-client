@@ -29,6 +29,11 @@ class Scope extends AbstractEnum
     const READ_BASIC_PROFILE = 'r_basicprofile';
 
     /**
+     * Allows to read basic information about profile, such as name
+     */
+    const READ_LITE_PROFILE = 'r_liteprofile';
+
+    /**
      * Enables access to email address field
      */
     const READ_EMAIL_ADDRESS = 'r_emailaddress';
